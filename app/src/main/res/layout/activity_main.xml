@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:rotation="-360"
     tools:context=".MainActivity">
@@ -27,6 +27,7 @@
         android:layout_margin="8dp"
         android:textColor="#000000"
         android:hint="First Name"
+        android:background="@drawable/edittext_background"
         android:textColorHint="#510101"
         android:inputType="text"
         android:padding="8dp"
@@ -40,6 +41,7 @@
         android:layout_gravity="center"
         android:layout_margin="8dp"
         android:textColor="#000000"
+        android:background="@drawable/edittext_background"
         android:hint="Second Name"
         android:textColorHint="#510101"
         android:inputType="text"
@@ -54,6 +56,7 @@
         android:layout_gravity="center"
         android:layout_margin="8dp"
         android:textColor="#000000"
+        android:background="@drawable/edittext_background"
         android:hint="NIC"
         android:inputType="text"
         android:textColorHint="#510101"
@@ -69,6 +72,7 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_margin="8dp"
+        android:background="@drawable/edittext_background"
         android:textColorHint="#510101"
         android:hint="Phone Number"
         android:inputType="number"
@@ -90,11 +94,13 @@
             android:layout_margin="10dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="10dp"
-            android:padding="8dp"
+            android:background="@drawable/login_btn_background"
 
+            android:padding="8dp"
             android:text="view all"
             android:textAllCaps="true"
             android:textSize="20sp"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/save_button"
             app:layout_constraintHorizontal_bias="0.082"
@@ -116,6 +122,7 @@
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/login_btn_background"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.033" />
 
